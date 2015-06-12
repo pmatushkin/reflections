@@ -1,0 +1,33 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Viewing the diff helped seeing the bug almost immediately because the diff omitted every line
+that wasn't changed since saving the previous version of the game file.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+I would be able to revert the file to any previous state in case the latest changes introduced irreparable mistakes.
+I would be able to compare two states of the file to see what makes them different, and make an educated guess about
+how this difference affected the program.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+Pro: I can have better control over the size of my commits, which would allow me to better organize the history of the code changes.
+Con: I have to remember to commit the code changes.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Git allows to save multiple files in one commit because the files can be related, and must be updated at the same time
+to keep the code consistent.
+
+How can you use the commands git log and git diff to view the history of files?
+
+I can use git log to view the history of the commits in the current repository, and then use git diff to see the difference
+between any two commits.
+
+How might using version control make you more confident to make changes that could break something?
+
+I won't be afraid to break something, because I can always check out the most recent unbroken version of the code.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to use it to keep track of the changes in my code, propagate my repositories across various machines, and clone the repositories from github.
