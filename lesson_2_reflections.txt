@@ -1,0 +1,9 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Git creates a hidden directory for metadata. I need to run this command to transform the ordinary directory into the git repository.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Staging area is different from the working directory, because it only contains the files prepared for the next commit.
+Staging area is different from the repository, because it only contains the files prepared for the next commit, not the files already committed.
+This allows us to stage our commits by splitting the changes we already made into the logically separated stages.
