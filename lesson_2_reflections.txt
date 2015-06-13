@@ -7,3 +7,24 @@ How is the staging area different from the working directory and the repository?
 Staging area is different from the working directory, because it only contains the files prepared for the next commit.
 Staging area is different from the repository, because it only contains the files prepared for the next commit, not the files already committed.
 This allows us to stage our commits by splitting the changes we already made into the logically separated stages.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+I can use it to stage the files containing a single logical change, committing them, and then repeating these steps for every logical change left in the working area.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches would be heplful, for example, when I want to try an experimental feature. The branch I created would have all the previous changes I made plus whatever I wanted to try. The experimental changes would be separated from the master repository, and I would be able to switch between the branches using their labels.
+
+How do the diagrams help you visualize the branch structure?
+
+They help me to understand when the branch was created, and which commits are reachable from the current position of the HEAD.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result is a single branch combining all the features and fixes from both branches. The diagram represents it the way it does to display the commits made to both branches, and the most recent commit where the branches started.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging is simpler, because all the job is done by git. However, it's not always possible to merge two branches automatically. In this case, manual merging is necessary.
+
