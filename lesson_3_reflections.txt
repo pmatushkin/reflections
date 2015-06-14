@@ -18,3 +18,6 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 
 I would have to collaborate by email I guess. Or by using FTP and comparing the timestamps on the files. It would probably be much easier to set up something like this, but significantly harder to keep the code up to date.
 
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+When workinh in a separate bacnh I can introduce new features to the code without them affecting the master branch. Additionally, it's easier to submit pull requests when working in the separate branch. Arguably, directly changing the master branch is easier, but not in a collaborative environment.
