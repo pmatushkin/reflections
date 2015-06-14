@@ -13,3 +13,8 @@ The difference between a fork and a clone is basically a fork is a detached clon
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 Having a copy of the last known state of the remote helps when there is a conflict between the changes made locally and remotely. The last known state helps to merge these confilcts.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+I would have to collaborate by email I guess. Or by using FTP and comparing the timestamps on the files. It would probably be much easier to set up something like this, but significantly harder to keep the code up to date.
+
